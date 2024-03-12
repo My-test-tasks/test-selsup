@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Test Task Selsup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Деплой:
 
-Currently, two official plugins are available:
+Посмотреть приложение можно по ссылке: [my-test-tasks.github.io/test-selsup/](https://my-test-tasks.github.io/test-selsup/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## О приложении
 
-## Expanding the ESLint configuration
+Test Task Selsup - тестовое задание компании Selsup
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Скриншоты
 
-- Configure the top-level `parserOptions` property like this:
+![Screenshot 2024-03-12 225350](https://github.com/My-test-tasks/test-selsup/assets/71071594/45d66d68-f633-49c7-a156-bbf7bade66e1)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Технологии
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+`React`, `TypeScript`, `Vite`
+
+## Запуск
+
+- Скачать или клонировать (`git clone`) репозиторий
+- Выполнить `npm install`
+- Выполнить `npm run dev`
+- Перейти по адресу [localhost:5173/](https://http://localhost:5173/)
